@@ -12,8 +12,10 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    width: 300px;
-    margin-right: -240px;
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
 
 }
 .Title {
@@ -32,16 +34,20 @@ body {
     width: 500px;
     margin-top: 60px;
     margin-left: 40px;
+
 }
 .list-one {
     display: flex;
     line-height: 7px;
     color: gray;
     font-size: 20px;
-    margin-left: 420px;
 }
 .list-item {
     margin-left: 15px;
+}
+.links{
+    text-decoration: none;
+    color:aliceblue;
 }
 .first-button{
     background-color: #3882F6;
@@ -52,9 +58,15 @@ body {
     font-size: large;
     margin-top: 20px;
 }
+.link-odin {
+    text-decoration: none;
+    color: white;
+}
 .header {
     display: flex;
     align-items: center;
+    width: 952px;
+    justify-content: space-between;
 }
 .descripcion {
     width: 400px;
@@ -83,8 +95,6 @@ body {
 .cuadrado-azul {
     height: 150px;
     width: 150px;
-    border: 3px solid #3882F6;
-    border-radius: 20px;
 }
 .cuadrado-text {
     text-align: center;
@@ -129,9 +139,11 @@ body {
     width: 900px;
     height: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    padding: 0 50px;
+    box-sizing: border-box;
 }
 .text-three {
     color: rgb(180, 162, 162);
@@ -142,11 +154,7 @@ body {
     font-size: 30px;
     margin-top: -40px;
 }
-.title-text {
-    margin-left: -300px;
-}
 .button-two {
-    margin-left: -230px;
     margin-top: 10px;
     background-color: #3882F6;
     border: 2px solid white;
